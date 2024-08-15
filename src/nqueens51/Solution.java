@@ -52,10 +52,10 @@ class Solution {
                 StringBuilder row = new StringBuilder();
                 for (int j = 0; j < n; j++){
                     if(j == jQ){
-                        row.append("Q");
+                        row.insert(0,"Q");
                     }
                     else{
-                        row.append(".");
+                        row.insert(0,".");
                     }
                 }
                 rowList.add(row.toString());
